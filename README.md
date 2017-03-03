@@ -13,7 +13,7 @@ Since the URLs might contain commas, we use the pipe(|) delimiter instead
 2. Go to *bin*
 3. Open *jmeter.properties* file
 4. Find *jmeter.save.saveservice.default_delimiter* then set your preferred separator
-5. Open the Test Plan(Redirects Test.jmx) on JMeter
+5. Open the Test Plan(Redirects Testing.jmx) on JMeter
 6. Navigate to Test Plan -> While Controller -> CSV Data Config
 7. On *Delimiter* field, change to your preferred separator as defined on *jmeter.properties* file
 
@@ -22,9 +22,8 @@ Since the URLs might contain commas, we use the pipe(|) delimiter instead
 2. Under *Server Name or IP*, set your target hostname to test
 
 ### Setting up your source CSV File
-1. Open your test plan(Redirects Test.jmx)
-2. Navigate to Test Plan -> While Controller -> CSV Data Set Config
-3. Set the filename to your CSV source path
+1. Navigate to Test Plan -> While Controller -> CSV Data Set Config
+2. Set the filename to your CSV source path
 
 ### Setting up your results file
 1. Navigate to Test Plan -> Redirects Group -> View Results Tree
